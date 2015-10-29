@@ -58,7 +58,7 @@ define(["underscore"], function(_) {
     /**
      * Returns 5x5 bit pattern for char as JSON
      * @param  {string} char one uppercase char
-     * @return {array[x][y]}      bit pattern
+     * @return {array[y][x]}      bit pattern
      */
     Bitfont.prototype.getCharPattern = function(char) {
         var tempArr = _.toArray(this._patterns[char]);
